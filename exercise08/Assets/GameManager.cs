@@ -26,6 +26,11 @@ public class GameManager : MonoBehaviour
     public Slider skinSat;
     public Color skinColor;
     public Material skin;
+    public TextMeshProUGUI sentence;
+    public GameObject name;
+    public GameObject pronoun;
+    string pet = "";
+
 
 
     // Start is called before the first frame update
@@ -46,6 +51,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        //sentence.text = name.GetComponent<Text>().text +" and"+ pronoun.GetComponent<Text>().text + " pet";
         Color st = new Color(tone.value, undertone.value, 1);
         if(tone.value>= .7){
             skinSat.minValue =.1f;
