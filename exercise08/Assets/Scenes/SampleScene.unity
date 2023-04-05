@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8374,12 +8374,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 153c82f3ac4a0294baca9c6f3c1136ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyRend: {fileID: 0}
+  bodyRend: {fileID: 305709056}
   hoverColor: {r: 0.27058825, g: 0.3052176, b: 0.5019608, a: 0}
   selectedColor: {r: 0.113385536, g: 0.14056124, b: 0.26415092, a: 0}
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
   selected: 0
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!65 &305709054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8393,6 +8393,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.65, y: 1.493784, z: 2.22}
   m_Center: {x: 0.42475602, y: 0.3012471, z: -0.065191984}
+--- !u!23 &305709056 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7635826562936255635, guid: 3737edab36103ba489036a14362c5562, type: 3}
+  m_PrefabInstance: {fileID: 762208349}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &343001286
 GameObject:
   m_ObjectHideFlags: 0
@@ -12107,7 +12112,7 @@ MonoBehaviour:
   selectedColor: {r: 0.49056602, g: 0.14115341, b: 0.14115341, a: 0}
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
   selected: 0
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!4 &930407914 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2393382045976367542, guid: ae6917140a298e14da1d07079a82f83a, type: 3}
@@ -12119,7 +12124,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh36654
+  m_Name: pb_Mesh125626
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12329,7 +12334,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.398487
+  field of view: 33.39849
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -13623,7 +13628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7691e9a9b081b0e4a938659d59a2e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 1897316854}
+  gm: {fileID: 291120666}
 --- !u!23 &1293509511
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13686,7 +13691,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh36468
+  m_Name: pb_Mesh125380
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14814,7 +14819,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh36564
+  m_Name: pb_Mesh125512
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16779,7 +16784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37e7f2690bcfdfc4c8cf0fccd2f9a176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!1001 &1808287340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17127,7 +17132,7 @@ MonoBehaviour:
   selectedColor: {r: 0.5471698, g: 0.37470797, b: 0.080010675, a: 0}
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
   selected: 0
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!65 &1885890470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17157,7 +17162,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1897316853
 Transform:
   m_ObjectHideFlags: 0
@@ -17238,7 +17243,7 @@ MonoBehaviour:
   selectedColor: {r: 0.20502815, g: 0.17417233, b: 0.3584906, a: 0}
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
   selected: 0
-  gm: {fileID: 1897316854}
+  gm: {fileID: 291120666}
 --- !u!1 &1904787066
 GameObject:
   m_ObjectHideFlags: 0
@@ -17673,7 +17678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67b5904f3325bce4fb346ab3d5c9fcd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!1 &2046282965
 GameObject:
   m_ObjectHideFlags: 0
@@ -18145,7 +18150,7 @@ MonoBehaviour:
   selectedColor: {r: 0.49056602, g: 0.14115341, b: 0.14115341, a: 0}
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
   selected: 0
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!1 &2112622591
 GameObject:
   m_ObjectHideFlags: 0
@@ -18425,7 +18430,7 @@ MonoBehaviour:
   selectedColor: {r: 0.49056602, g: 0.14115341, b: 0.14115341, a: 0}
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
   selected: 0
-  gm: {fileID: 0}
+  gm: {fileID: 291120666}
 --- !u!23 &378545260006987422
 MeshRenderer:
   m_ObjectHideFlags: 0
