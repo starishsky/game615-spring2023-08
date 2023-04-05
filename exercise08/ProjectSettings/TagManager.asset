@@ -8,6 +8,10 @@ TagManager:
   - hat
   - shoes
   - bottoms
+  - option1
+  - option2
+  - option4
+  - option3
   layers:
   - Default
   - TransparentFX
